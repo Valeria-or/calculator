@@ -1,0 +1,43 @@
+#input{
+    margin: 20px auto;
+    text-align: center;
+}
+#bodyCalculator{
+    margin: 20px auto;
+    display: table;
+}
+#inputCalculator{
+    font-size: 29px;
+    border-radius: 10px;
+    line-height: 45px;
+    border: 2px solid #fd9d3e;
+}
+
+#buttonsNumber{
+    display: inline-table;
+}
+#buttonsOperation{
+    display: inline-grid;
+}
+button{
+    font-size: 28px;
+    padding: 17px 23px;
+    margin: 10px 10px auto;
+    border: none;
+}
+#buttonClean{
+    padding-left: 259px;
+
+}
+#buttonEqual{
+    padding-left: 64px;
+    padding-right: 63px;
+}
+.operation{
+    background-color: #fd9d3e;
+    border-radius: 10px;
+}
+.number{
+    background-color: #e1e1e1;
+    border-radius: 10px;
+}
